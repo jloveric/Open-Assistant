@@ -11,3 +11,19 @@ line_length = 120
 [tool.black]
 line-length = 120
 target-version = ['py310']
+
+[tool.poetry]
+name = "open-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "open_assistant"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
